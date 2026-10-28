@@ -1,0 +1,17 @@
+# dependencies (สร้างใหม่ได้ด้วย npm install)
+node_modules/
+
+# build output
+dist/
+
+# ค่าลับและไฟล์ตั้งค่าเฉพาะเครื่อง
+.env
+.env.*
+!.env.example
+
+# ฐานข้อมูลและไฟล์ที่ผู้ใช้อัปโหลด
+*.sqlite
+uploads/
+
+# log
+*.log
